@@ -1,0 +1,38 @@
+@use '@coreui/coreui/scss/coreui';
+
+body,
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+$primary: red;
+$secondary: #ede7de;
+
+.btn-secondary {
+  background-color: $secondary;
+  color: black;
+  border: none;
+}
+
+.highlighted-text {
+  color: #bd2835;
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.link-text {
+  color: #847062;
+  font-weight: 500;
+}
+
+.content-area {
+  background-color: hsl(35 20% 97%);
+  flex: 1;
+  padding: 1rem;
+}
+
+.main-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}

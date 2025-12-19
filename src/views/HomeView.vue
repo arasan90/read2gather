@@ -1,9 +1,8 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+import { CButton } from '@coreui/vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <h1>Home View</h1>
+  <CButton color="primary">Helloooooo</CButton>
 </template>
