@@ -4,11 +4,11 @@ import HeaderVue from './components/HeaderVue.vue'
 </script>
 
 <template>
-  <CContainer fluid class="main-container">
+  <CContainer fluid class="main-container p-0">
     <CRow>
       <HeaderVue />
     </CRow>
-    <div class="content-area">
+    <div class="content-area p-0">
       <RouterView />
     </div>
   </CContainer>
