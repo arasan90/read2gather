@@ -13,7 +13,3 @@ import HeaderVue from './components/HeaderVue.vue'
     </div>
   </CContainer>
 </template>
-
-<style lang="scss" scoped>
-@use './assets/styles/main.scss';
-</style>

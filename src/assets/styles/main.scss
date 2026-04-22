@@ -36,13 +36,3 @@ $secondary: #ede7de;
   display: flex;
   flex-direction: column;
 }
-
-.landing-page-top-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 600px;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/images/landing-bg.png');
-  background-position-y: center;
-  text-align: center;
-}
