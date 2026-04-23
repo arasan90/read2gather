@@ -5,7 +5,7 @@ import HeaderVue from './components/HeaderVue.vue'
 
 <template>
   <CContainer fluid class="main-container p-0">
-    <CRow>
+    <CRow class="app-header-row">
       <HeaderVue />
     </CRow>
     <div class="content-area p-0">
