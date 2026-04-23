@@ -13,3 +13,10 @@ import HeaderVue from './components/HeaderVue.vue'
     </div>
   </CContainer>
 </template>
+
+<style scoped>
+.app-header-row {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
