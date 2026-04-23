@@ -125,7 +125,7 @@ import { BookOpen, Users, Search, Trophy } from 'lucide-vue-next'
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  height: 50vh;
   background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/images/landing-bg.png');
   background-position-y: center;
   text-align: center;
@@ -134,7 +134,7 @@ import { BookOpen, Users, Search, Trophy } from 'lucide-vue-next'
 .landing-page-middle-section {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 25vh;
   background-color: rgba(231, 225, 218, 0.3);
   font-weight: bold;
   text-align: center;
@@ -143,7 +143,7 @@ import { BookOpen, Users, Search, Trophy } from 'lucide-vue-next'
 .landing-page-bottom-section {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: 25vh;
   background-color: rgba(239, 235, 231, 0.3);
   font-weight: bold;
   text-align: center;
