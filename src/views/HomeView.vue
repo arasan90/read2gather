@@ -173,4 +173,9 @@ import { BookOpen, Users, Search, Trophy } from 'lucide-vue-next'
   background-color: #bd2835;
   border-color: #bd2835;
 }
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition:all 0.2s ease-in-out;
+}
 </style>
