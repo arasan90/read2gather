@@ -4,16 +4,20 @@ import HeaderVue from './components/HeaderVue.vue'
 </script>
 
 <template>
-  <CContainer fluid class="main-container">
-    <CRow>
+  <CContainer fluid class="main-container p-0">
+    <CRow class="app-header-row">
       <HeaderVue />
     </CRow>
-    <div class="content-area">
+    <div class="content-area p-0">
       <RouterView />
     </div>
   </CContainer>
 </template>
 
-<style lang="scss" scoped>
-@use './assets/styles/main.scss';
+<style scoped>
+.app-header-row {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 </style>
