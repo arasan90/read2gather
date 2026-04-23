@@ -20,3 +20,4 @@ import HeaderVue from './components/HeaderVue.vue'
   top: 0;
   z-index: 1000;
 }
+</style>
